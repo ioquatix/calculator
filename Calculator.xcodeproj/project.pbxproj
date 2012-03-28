@@ -13,6 +13,7 @@
 		7E626F4415229B6F0001C83E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7E626F4215229B6F0001C83E /* Credits.rtf */; };
 		7E626F4715229B6F0001C83E /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E626F4615229B6F0001C83E /* CAppDelegate.m */; };
 		7E626F4A15229B6F0001C83E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E626F4815229B6F0001C83E /* MainMenu.xib */; };
+		7E626F551522A64D0001C83E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E626F541522A64D0001C83E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		7E626F3615229B6F0001C83E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7E626F3715229B6F0001C83E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7E626F3815229B6F0001C83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7E626F3B15229B6F0001C83E /* Calculator-Info.plist */ = {isa = PBXFileReference; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
+		7E626F3B15229B6F0001C83E /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		7E626F3D15229B6F0001C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E626F3F15229B6F0001C83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E626F4115229B6F0001C83E /* Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		7E626F4115229B6F0001C83E /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		7E626F4315229B6F0001C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		7E626F4515229B6F0001C83E /* CAppDelegate.h */ = {isa = PBXFileReference; path = CAppDelegate.h; sourceTree = "<group>"; };
+		7E626F4515229B6F0001C83E /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
 		7E626F4615229B6F0001C83E /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
 		7E626F4915229B6F0001C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7E626F541522A64D0001C83E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		7E626F2415229B6F0001C83E = {
 			isa = PBXGroup;
 			children = (
+				7E626F541522A64D0001C83E /* README.md */,
 				7E626F3915229B6F0001C83E /* Calculator */,
 				7E626F3215229B6F0001C83E /* Frameworks */,
 				7E626F3015229B6F0001C83E /* Products */,
@@ -157,6 +160,7 @@
 				7E626F3E15229B6F0001C83E /* InfoPlist.strings in Resources */,
 				7E626F4415229B6F0001C83E /* Credits.rtf in Resources */,
 				7E626F4A15229B6F0001C83E /* MainMenu.xib in Resources */,
+				7E626F551522A64D0001C83E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				7E626F4F15229B6F0001C83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
